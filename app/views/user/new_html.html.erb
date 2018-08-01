@@ -1,0 +1,29 @@
+<html>
+  <body>
+
+<div class = container text-align = "center">
+  <br>
+  <br>
+<h1>          ❤️  💛  💚 💙 Bienvenue à toi mon ami(e)  ❤️  💛  💚 💙   </h1>
+💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️
+<br><br>
+
+<h2>           Pour t'inscrire, merci de bien vouloir compléter le formulaire ci-dessous:</h2> <br>
+
+<br>
+<!--
+######## FORMULAIRE CLASSIQUE HTML -->
+<form action="new_html" method= "post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  Ton nom d'utilisateur:<br>
+  <input type="text" name="username" class="form-control" placeholder="✏️Ton petit nom"><br><br>
+  Ton email:<br>
+  <input type="text" name="email" class="form-control" placeholder="✏️Ton email"><br><br>
+   Dis nous-en un peu plus sur toi:<br>
+  <textarea name="bio" rows="15" cols="90" class="form-control" placeholder="✏️Ta biographie"></textarea><br><br>
+  <input type="submit" value="Sauvegarder"><br>
+</form>
+
+</div>
+</body>
+</html>

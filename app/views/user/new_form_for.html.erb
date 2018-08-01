@@ -1,0 +1,45 @@
+<html>
+  <body>
+
+<div class = container text-align = "center">
+  <br>
+  <br>
+<h1>          ❤️  💛  💚 💙 Bienvenue à toi mon ami(e)  ❤️  💛  💚 💙   </h1>
+💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️💙💚💛❤️
+<br><br>
+
+<h2>           Pour t'inscrire, merci de bien vouloir compléter le formulaire ci-dessous:</h2> <br>
+
+<br>
+<!--#####   FORMULAIRE FORM_FOR PIMPE -->
+ <%= form_for :user do |f| %>
+
+ 💃 Ton petit nom : <br />
+  <%= f.text_field :username, class: "form-control", placeholder: "✏️Ton petit nom" %><br />
+
+  <br />
+
+  💃 Ton email     : <br />
+  <%= f.email_field :email, class: "form-control", placeholder: "✏️mon_email@domaine.com"%><br />
+
+  <br />
+
+  💃 Quelques mots sur toi : <br />
+  <%= f.text_area :bio, class: "form-control", placeholder: "✏️quelques mots sur toi"%><br />
+
+  <br />
+  <%= f.submit "Enregistrer" %>
+<% end %>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

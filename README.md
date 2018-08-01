@@ -1,24 +1,29 @@
-# README
+# I LOVE FORMS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Par Gaëlle Gorgori (06 62 31 97 81)
 
-Things you may want to cover:
+## Consignes de l'exercice
 
-* Ruby version
+cf Cours THP <a href="https://www.thehackingproject.org/week/5/day/2"> Jouer avec les formulaires</a>
 
-* System dependencies
 
-* Configuration
+## Lien Heroku
 
-* Database creation
+Je vous invite à consulter le site sur Heroku sur le lien suivant: <a href="https://i-love-formes-gaga.herokuapp.com/">Projet Heroku "i-love-forms-gaga"</a>.
 
-* Database initialization
+* Pour commencer la lecture :
+```
+$cd i-love-forms
+$bundle install
+$rails db:migrate
+$rails server
+```
 
-* How to run the test suite
+* Les répertoires utilisés sont les suivants:
+```
+Les Views
+Les Controllers
+Les routes
+Les models
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
